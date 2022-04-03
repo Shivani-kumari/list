@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+}
+.App {
+  height: 350px;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.header{
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  color: #002984;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #002984;
+}
+.myform{
+  padding: 10px;
+ 
+}
+.add{
+  border: none;
+  padding: 10px;
+  background-color: #002a8473;
+  cursor: pointer;
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-card{
+  position: relative;
+  top:30px
+}
+.list-card{
+  height: auto;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 15px;
+  font-size: small;
+}
+
+.mobile{
+  padding-left: 10px;
+}
+.mobileValue{
+  padding-left: 10px;
+  color: #002984;
+  font: bolder;
+}
+.value{
+  color: #002984;
+  font-weight: bolder;
+}
+.email-id{
+  padding-top: 10px;
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+}
+.delete{
+  border: none;
+  padding: 10px;
+  background-color: #002a8473;
+  cursor: pointer;
+}
+.email-value{
+  color: #002984;
+  font-weight: bolder;
 }
